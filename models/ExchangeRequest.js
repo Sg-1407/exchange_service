@@ -8,15 +8,15 @@ const ExchangeRequest = sequelize.define('ExchangeRequest', {
     autoIncrement: true,
   },
   lender_id: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   borrower_id: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   book_id: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   exchange_id: {
